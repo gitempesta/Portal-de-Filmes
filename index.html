@@ -3,9 +3,10 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<title>HTMLUseful for copying and pasting into your HTML (Webfont with CSS or SVG with JS).<i class="fad fa-ticket"></i>Portal Cinema</title>
+		<title>Só Filme Top - Portal de Filmes</title>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-		<link rel="stylesheet" href="estilo.css"> 
+		<link rel="stylesheet" href="estilo.css">
+		<link rel="icon" href="img/icon.png">
 		<script src="https://kit.fontawesome.com/271de012a9.js" crossorigin="anonymous"></script>  
 	</head>
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -47,6 +48,7 @@
 				</div>
 			</nav>
 		</header>
+
 		<!--lançamentos-->
 		<section id="s-lancamento" class="odd">
 			<div class="container">
@@ -256,322 +258,319 @@
 				</div>
 			</div>
 		</section>
-			<!--em destaques-->
-			<section id="s-destaque" class="even">
-				<div class="container">
-					<div class="row title-row">
-						<div class="col-6">
-							<h1>Em Destaques</h1>
-						</div>
-						<div class="col-6">
-							<select name="" id="destaque-categorias" class="form-control" >
-								<option value="" style="display: none;">Selecione uma Categoria:</option>
-								<option value="">TODOS</option>
-								<option value="">Aventura</option>
-								<option value="">Ação</option>
-								<option value="">Suspense</option>
-								<option value="">Terror</option>
-								<option value="">Drama</option>
-								<option value="">Comédia</option>
-							</select>
-						</div>
+
+		<!--em destaques-->
+		<section id="s-destaque" class="even">
+			<div class="container">
+				<div class="row title-row">
+					<div class="col-6">
+						<h1>Em Destaques</h1>
 					</div>
-					<div class="row card-destaque">
-						<div class="col-12 col-sm-6 col-lg-3">
-							<img src="img/greenbook-poster.jpg" alt="">	
-						</div>
-						<div class="col-12 col-sm-6 col-lg-3">
-							<img src="img/trumanshow-poster.jpg" alt="">
-						</div>
-						<div class="col-12 col-sm-6 col-lg-3">
-							<img src="img/clubedaluta-posterjpg.jpg" alt="">
-						</div>
-						<div class="col-12 col-sm-6 col-lg-3">
-							<img src="img/interestelar-poster.jpg" alt="">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-12">
-							<button class="btn btn-danger float-right"><i class="fa fa-plus fa-sm"></i> Carregar Mais Filmes</button>
-						</div>
+					<div class="col-6">
+						<select name="" id="destaque-categorias" class="form-control" >
+							<option value="" style="display: none;">Selecione uma Categoria:</option>
+							<option value="">TODOS</option>
+							<option value="">Aventura</option>
+							<option value="">Ação</option>
+							<option value="">Suspense</option>
+							<option value="">Terror</option>
+							<option value="">Drama</option>
+							<option value="">Comédia</option>
+						</select>
 					</div>
 				</div>
-			</section>
-			<!--avaliação-->
+				<div class="row card-destaque">
+					<div class="col-12 col-sm-6 col-lg-3">
+						<img src="img/greenbook-poster.jpg" alt="">	
+					</div>
+					<div class="col-12 col-sm-6 col-lg-3">
+						<img src="img/trumanshow-poster.jpg" alt="">
+					</div>
+					<div class="col-12 col-sm-6 col-lg-3">
+						<img src="img/clubedaluta-posterjpg.jpg" alt="">
+					</div>
+					<div class="col-12 col-sm-6 col-lg-3">
+						<img src="img/interestelar-poster.jpg" alt="">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<button class="btn btn-danger float-right"><i class="fa fa-plus fa-sm"></i> Carregar Mais Filmes</button>
+					</div>
+				</div>
+			</div>
+		</section>
 
-			<section id="s-avaliacao" class="even">
-				<div class="container">
-					<div class="row title-row">
-						<div class="col-12">
-							<h1 >Últimas Avaliações</h1>
+		<!--avaliação-->
+		<section id="s-avaliacao" class="even">
+			<div class="container">
+				<div class="row title-row">
+					<div class="col-12">
+						<h1>Últimas Avaliações</h1>
+					</div>
+				</div>
+				<div class="row card-avaliacao">
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="card">
+							<div class="card-body">
+								<div class="row">
+									<div class="col-2">
+										<i class="fas fa-user-circle fa-2x"></i>
+									</div>
+									<div class="col-10">
+										<h5 class="card-title">Lucas</h5>
+										<h6 class="card-subtitle mb-2 text-muted">Sobre <a href="#" class="text-danger">Clube da Luta</a></h6>
+										<p class="card-text">
+											<i class="fas fa-quote-left text-danger" ></i> Primeiro você tem que se entregar, primeiro você tem que saber não temer, saber que um dia você vai morrer. 
+											<i class="fas fa-quote-right text-danger"></i>
+										</p>
+										<small class="text-danger align-top">
+											<i class="fas fa-star fa-sm"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star-half-alt"></i> 
+										</small>
+										<small class="float-right"><b>21/04/2020</b></small>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="row card-avaliacao">
-						<div class="col-12 col-md-6 col-lg-4">
-							<div class="card">
-								<div class="card-body">
-									<div class="row">
-										<div class="col-2">
-											<i class="fas fa-user-circle fa-2x"></i>
-										</div>
-										<div class="col-10">
-											<h5 class="card-title">Lucas</h5>
-											<h6 class="card-subtitle mb-2 text-muted">Sobre <a href="#" class="text-danger">Clube da Luta</a></h6>
-											<p class="card-text">
-												<i class="fas fa-quote-left text-danger" ></i> Primeiro você tem que se entregar, primeiro você tem que saber não temer, saber que um dia você vai morrer. 
-												<i class="fas fa-quote-right text-danger"></i>
-											</p>
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="card">
+							<div class="card-body">
+								<div class="row">
+									<div class="col-2">
+										<i class="fas fa-user-circle fa-2x"></i>
+									</div>
+									<div class="col-10">
+										<h5 class="card-title">Luana</h5>
+										<h6 class="card-subtitle mb-2 text-muted">Sobre <a href="#" class="text-danger">Interestelar</a></h6>
+										<p class="card-text">
+											Melhor fime do século!!! Apaixonada <i class="fas fa-heart text-danger"></i>
+										</p>
+										<small class="text-danger align-top">
+											<i class="fas fa-star fa-sm"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i> 
+										</small>
+										<small class="float-right"><b>21/04/2020</b></small>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="card">
+							<div class="card-body">
+								<div class="row">
+									<div class="col-2">
+										<i class="fas fa-user-circle fa-2x"></i>
+									</div>
+									<div class="col-10">
+										<h5 class="card-title">Roberta</h5>
+										<h6 class="card-subtitle mb-2 text-muted">Sobre <a href="#" class="text-danger">Green Book</a></h6>
+										<p class="card-text">Filme lindo! Triste saber que em pleno 2020 ainda tem muita gente racista no mundo. <i class="far fa-sad-tear text-danger"></i></p>
+										<div class="estrela-data">
 											<small class="text-danger align-top">
 												<i class="fas fa-star fa-sm"></i>
 												<i class="fas fa-star"></i>
 												<i class="fas fa-star"></i>
 												<i class="fas fa-star"></i>
-												<i class="fas fa-star-half-alt"></i> 
+												<i class="far fa-star"></i> 
 											</small>
 											<small class="float-right"><b>21/04/2020</b></small>
 										</div>
-									</div>						
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-md-6 col-lg-4">
-							<div class="card">
-								<div class="card-body">
-									<div class="row">
-										<div class="col-2">
-											<i class="fas fa-user-circle fa-2x"></i>
-										</div>
-										<div class="col-10">
-											<h5 class="card-title">Luana</h5>
-											<h6 class="card-subtitle mb-2 text-muted">Sobre <a href="#" class="text-danger">Interestelar</a></h6>
-											<p class="card-text">
-												Melhor fime do século!!! Apaixonada <i class="fas fa-heart text-danger"></i>
-											</p>
-											<small class="text-danger align-top">
-												<i class="fas fa-star fa-sm"></i>
-												<i class="fas fa-star"></i>
-												<i class="fas fa-star"></i>
-												<i class="fas fa-star"></i>
-												<i class="fas fa-star"></i> 
-											</small>
-											<small class="float-right"><b>21/04/2020</b></small>
-										</div>
-									</div>						
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-md-6 col-lg-4">
-							<div class="card">
-								<div class="card-body">
-									<div class="row">
-										<div class="col-2">
-											<i class="fas fa-user-circle fa-2x"></i>
-										</div>
-										<div class="col-10">
-											<h5 class="card-title">Roberta</h5>
-											<h6 class="card-subtitle mb-2 text-muted">Sobre <a href="#" class="text-danger">Green Book</a></h6>
-											<p class="card-text">Filme lindo! Triste saber que em pleno 2020 ainda tem muita gente racista no mundo. <i class="far fa-sad-tear text-danger"></i></p>
-											<div class="estrela-data">
-												<small class="text-danger align-top">
-													<i class="fas fa-star fa-sm"></i>
-													<i class="fas fa-star"></i>
-													<i class="fas fa-star"></i>
-													<i class="fas fa-star"></i>
-													<i class="far fa-star"></i> 
-												</small>
-												<small class="float-right"><b>21/04/2020</b></small>
-											</div>
-										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-					</div>
-					<div class="row b-avaliacoes">
-						<div class="col-12">
-							<button class="btn btn-danger float-right "><i class="fa fa-plus fa-sm"></i> Carregar Mais Filmes</button>
 						</div>
 					</div>
 				</div>
-			</section>
-		
-			<!--entrevistas e making of-->
-		
-			<section id="s-entrevistas" class="odd">
-				<div class="container">
-					<div class="row"> <!-- linha 1-->
-						<div class="col-12">
-							<h1>Entrevistas & Making of</h1>
-						</div>
+				<div class="row b-avaliacoes">
+					<div class="col-12">
+						<button class="btn btn-danger float-right "><i class="fa fa-plus fa-sm"></i> Carregar Mais Filmes</button>
 					</div>
-					<div class="row"> <!-- linha 2-->
-						<div class="col-12 col-md-6 col-lg-4"> <!-- 1/3-->
-							<div class="row"> <!-- video-->
-								<div class="card">
-									<iframe height="250" src="https://www.youtube.com/embed/tLN6RKroUiI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-									<div class="card-body">
-										<h5 class="card-title"><strong>Filme:</strong> Birdman - A Inesperada Virtude da Ignorância</h5>
-										<p class="card-text">
-											<strong>Diretor:</strong> Alejandro González               
-											<br><strong>Roteiro:</strong> Alejandro González 
-			                                <span class="float-right">
-												<small><em>2014 ‧ Drama/Romance</em></small>
-											</span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-md-6 col-lg-4"> <!-- 1/3-->
-							<div class="row"> <!-- video-->
-								<div class="card">
-									<iframe height="250" src="https://www.youtube.com/embed/QOJrKka8TJU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-									<div class="card-body">
-										<h5 class="card-title"><strong>Filme:</strong> Interestelar</h5>
-										<p class="card-text">
-										<br><strong>Diretor:</strong> Christopher Nolan               
-										<br><strong>Roteiro:</strong> Jonathan Nolan
-		                                <span class="float-right">
-											<small><em>2014 ‧ Ficção científica/Aventura</em></small>
-										</span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-md-6 col-lg-4"> <!-- 1/3-->
-							<div class="row"> <!-- video-->
-								<div class="card">
-									<iframe height="250" src="https://www.youtube.com/embed/HMvcO1GSm0U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-									<div class="card-body">
-										<h5 class="card-title"><strong>Filme:</strong> O Hobbit - A Batalha dos Cinco Exércitos</h5>
-										<p class="card-text">
-										<strong>Diretor:</strong> Peter Jackson              
-										<br><strong>Roteiro:</strong>  Peter Jackson
-		                                <span class="float-right">
-											<small><em>2014 ‧ Fantasia/Aventura</em></small>
-										</span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row"> <!-- linha 3-->
-						<!-- inserir botão e alinhar a direita-->
-						<div class="col-12">
-							<button class="btn btn-danger float-right"><i class="fa fa-plus fa-sm"></i> Carregar Mais Filmes</button>
-						</div>
-
-					</div>
-						
 				</div>
-			</section>
+			</div>
+		</section>
 		
-			<!--novidades, sobre e editorial-->
-		
-			<section id="s-novidades" class="even">
-				<div class="container">
-					<div class="row">
-						<div class="col-12 col-lg-9"> <!--Novidades-->
-							<div class="row"> <!--Título Novidades-->
-								<h1>Novidades</h1>
+		<!--entrevistas e making of-->
+		<section id="s-entrevistas" class="odd">
+			<div class="container">
+				<div class="row"> <!-- linha 1-->
+					<div class="col-12">
+						<h1>Entrevistas & Making of</h1>
+					</div>
+				</div>
+				<div class="row"> <!-- linha 2-->
+					<div class="col-12 col-md-6 col-lg-4"> <!-- 1/3-->
+						<div class="row"> <!-- video-->
+							<div class="card">
+								<iframe height="250" src="https://www.youtube.com/embed/tLN6RKroUiI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<div class="card-body">
+									<h5 class="card-title"><strong>Filme:</strong> Birdman - A Inesperada Virtude da Ignorância</h5>
+									<p class="card-text">
+										<strong>Diretor:</strong> Alejandro González               
+										<br><strong>Roteiro:</strong> Alejandro González 
+										<span class="float-right">
+											<small><em>2014 ‧ Drama/Romance</em></small>
+										</span>
+									</p>
+								</div>
 							</div>
-							<div class="row"> <!--Matéria 1-->
-								<div class="card mb-3" style="max-width: 550px;">
-									<div class="row no-gutters">
-										<div class="col-md-4">
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4"> <!-- 1/3-->
+						<div class="row"> <!-- video-->
+							<div class="card">
+								<iframe height="250" src="https://www.youtube.com/embed/QOJrKka8TJU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<div class="card-body">
+									<h5 class="card-title"><strong>Filme:</strong> Interestelar</h5>
+									<p class="card-text">
+									<br><strong>Diretor:</strong> Christopher Nolan               
+									<br><strong>Roteiro:</strong> Jonathan Nolan
+									<span class="float-right">
+										<small><em>2014 ‧ Ficção científica/Aventura</em></small>
+									</span>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4"> <!-- 1/3-->
+						<div class="row"> <!-- video-->
+							<div class="card">
+								<iframe height="250" src="https://www.youtube.com/embed/HMvcO1GSm0U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<div class="card-body">
+									<h5 class="card-title"><strong>Filme:</strong> O Hobbit - A Batalha dos Cinco Exércitos</h5>
+									<p class="card-text">
+									<strong>Diretor:</strong> Peter Jackson              
+									<br><strong>Roteiro:</strong>  Peter Jackson
+									<span class="float-right">
+										<small><em>2014 ‧ Fantasia/Aventura</em></small>
+									</span>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row"> <!-- linha 3-->
+					<!-- inserir botão e alinhar a direita-->
+					<div class="col-12">
+						<button class="btn btn-danger float-right"><i class="fa fa-plus fa-sm"></i> Carregar Mais Filmes</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!--novidades, sobre e editorial-->
+		<section id="s-novidades" class="even">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-9"> <!--Novidades-->
+						<div class="row"> <!--Título Novidades-->
+							<h1>Novidades</h1>
+						</div>
+						<div class="row"> <!--Matéria 1-->
+							<div class="card mb-3" style="max-width: 550px;">
+								<div class="row no-gutters">
+									<div class="col-md-4">
 										<img src="img/bacurau.png" class="card-img" alt="cena de bacurau">
-										</div>
-										<div class="col-md-8">
-											<div class="card-body">
-												<h5 class="card-title">Obama coloca Bacurau em sua lista de filmes e séries favoritos de 2020</h5>
-												<p class="card-text">Ex-presidente americano também incluiu obras como Soul e The Boys em sua seleção.</p>
-												<a class="btn btn-outline-danger btn-sm" href="#" role="button">Filme</a>
-												<a class="btn btn-outline-danger btn-sm" href="#" role="button">Notícia</a>
-											</div>
+									</div>
+									<div class="col-md-8">
+										<div class="card-body">
+											<h5 class="card-title">Obama coloca Bacurau em sua lista de filmes e séries favoritos de 2020</h5>
+											<p class="card-text">Ex-presidente americano também incluiu obras como Soul e The Boys em sua seleção.</p>
+											<a class="btn btn-outline-danger btn-sm" href="#" role="button">Filme</a>
+											<a class="btn btn-outline-danger btn-sm" href="#" role="button">Notícia</a>
 										</div>
 									</div>
-									<hr>
 								</div>
+								<hr>
 							</div>
-							<div class="row"> <!--Matéria 2-->
-								<div class="card mb-3" style="max-width: 550px;">
-									<div class="row no-gutters">
-										<div class="col-md-4">
+						</div>
+						<div class="row"> <!--Matéria 2-->
+							<div class="card mb-3" style="max-width: 550px;">
+								<div class="row no-gutters">
+									<div class="col-md-4">
 										<img src="img/racionais.jpg" class="card-img" alt="grupo racionais">
-										</div>
-										<div class="col-md-8">
-											<div class="card-body">
-												<h5 class="card-title">Racionais MC's terão documentário na Netflix em 2021</h5>
-												<p class="card-text">Projeto explorará origem do maior grupo de rap do Brasil, revela Edi Rock</p>
-												<a class="btn btn-outline-danger btn-sm" href="#" role="button">Netflix</a>
-												<a class="btn btn-outline-danger btn-sm" href="#" role="button">Notícia</a>
-											</div>
+									</div>
+									<div class="col-md-8">
+										<div class="card-body">
+											<h5 class="card-title">Racionais MC's terão documentário na Netflix em 2021</h5>
+											<p class="card-text">Projeto explorará origem do maior grupo de rap do Brasil, revela Edi Rock</p>
+											<a class="btn btn-outline-danger btn-sm" href="#" role="button">Netflix</a>
+											<a class="btn btn-outline-danger btn-sm" href="#" role="button">Notícia</a>
 										</div>
 									</div>
-									<hr>
 								</div>
+								<hr>
 							</div>
-							<div class="row"> <!--Matéria 3-->
-								<div class="card mb-3" style="max-width: 550px;">
-									<div class="row no-gutters">
-										<div class="col-md-4">
+						</div>
+						<div class="row"> <!--Matéria 3-->
+							<div class="card mb-3" style="max-width: 550px;">
+								<div class="row no-gutters">
+									<div class="col-md-4">
 										<img src="img/wagner-moura.jpg" class="card-img" alt="cena de Narcos">
-										</div>
-										<div class="col-md-8">
-											<div class="card-body">
-												<h5 class="card-title">Wagner Moura estará em The Gray Man, novo filme dos irmãos Russo</h5>
-												<p class="card-text">Longa conta também com Chris Evans e Ryan Gosling no elenco.</p>
-												<a class="btn btn-outline-danger btn-sm" href="#" role="button">Filme</a>
-												<a class="btn btn-outline-danger btn-sm" href="#" role="button">Notícia</a>
-											</div>
+									</div>
+									<div class="col-md-8">
+										<div class="card-body">
+											<h5 class="card-title">Wagner Moura estará em The Gray Man, novo filme dos irmãos Russo</h5>
+											<p class="card-text">Longa conta também com Chris Evans e Ryan Gosling no elenco.</p>
+											<a class="btn btn-outline-danger btn-sm" href="#" role="button">Filme</a>
+											<a class="btn btn-outline-danger btn-sm" href="#" role="button">Notícia</a>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-12 col-lg-3"> <!--Sobre e Editorial-->
-							<div class="row"> <!--Título Sobre-->
-								<div class="col-12">
-									<h1>Sobre</h1>
-								</div>
+					</div>
+					<div class="col-12 col-lg-3"> <!--Sobre e Editorial-->
+						<div class="row"> <!--Título Sobre-->
+							<div class="col-12">
+								<h1>Sobre</h1>
 							</div>
-							<div class="row"> <!--Conteúdo Sobre-->
-								<div class="col-12">
+						</div>
+						<div class="row"> <!--Conteúdo Sobre-->
+							<div class="col-12">
 								<p class="text-justify">
 									Meu nome é Gioana Tempesta M. Leão, tenho 21 anos e sou estudante de Design da Universidade Fumec. Por me interessar por UI e UX design, decidi me aventurar pela programação front-end  o que me ajudou a entender mais como fazer tudo funcionar. 
 									<br><br>Esse site foi construido com a intenção de praticar o uso da tecnologia bootstrap e aprender como deixa-lo responsivo. 
 								</p>
-								</div>
 							</div>
-							<div class="row"> <!--Título Editorial-->
-								<div class="col-12">
-									<br><br>
-									<h1>Editorial</h1>
-								</div>
+						</div>
+						<div class="row"> <!--Título Editorial-->
+							<div class="col-12">
+								<br><br>
+								<h1>Editorial</h1>
 							</div>
-							<div class="row"> <!--Conteudo Editorial-->
-								<div class="col-12">
-									<p><strong class="text-danger">Redação:</strong> Internet</p>
-									<p><strong class="text-danger">Pesquisa:</strong> Giovana</p>
-									<p><strong class="text-danger">Gerente Geral:</strong> Giovana</p>
-								</div>
+						</div>
+						<div class="row"> <!--Conteudo Editorial-->
+							<div class="col-12">
+								<p><strong class="text-danger">Redação:</strong> Internet</p>
+								<p><strong class="text-danger">Pesquisa:</strong> Giovana</p>
+								<p><strong class="text-danger">Gerente Geral:</strong> Giovana</p>
 							</div>
-							<div class="row"> <!--Redes Sociais-->
-								<div class="col-12">
-									<h3>redes sociais</h3>
-								</div>
-								<div class="col-12">
-									<a href="https://www.linkedin.com/in/giovana-tempesta-1b504b154/"><i class="fab fa-github-square fa-2x text-danger"></i></a>
-									<a href="https://www.linkedin.com/in/giovana-tempesta-1b504b154/"><i class="fab fa-linkedin fa-2x text-danger"></i></a>
-									<a href="https://www.behance.net/gtmleao1eac"><i class="fab fa-behance-square fa-2x text-danger"></i></a>	
-								</div>
+						</div>
+						<div class="row"> <!--Redes Sociais-->
+							<div class="col-12">
+								<h3>redes sociais</h3>
+							</div>
+							<div class="col-12">
+								<a href="https://www.linkedin.com/in/giovana-tempesta-1b504b154/"><i class="fab fa-github-square fa-2x text-danger"></i></a>
+								<a href="https://www.linkedin.com/in/giovana-tempesta-1b504b154/"><i class="fab fa-linkedin fa-2x text-danger"></i></a>
+								<a href="https://www.behance.net/gtmleao1eac"><i class="fab fa-behance-square fa-2x text-danger"></i></a>	
 							</div>
 						</div>
 					</div>
 				</div>
-			</section>
+			</div>
+		</section>
 		<footer id="rodape" class="odd"> <!--Rodapé-->
 			<div class="container">
 				<div class="row">
@@ -584,8 +583,6 @@
 				</div>
 			</div>
 		</footer>
-	
-		
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>   
