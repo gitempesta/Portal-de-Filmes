@@ -1,0 +1,124 @@
+
+/* CSS - Geral */
+html {
+    height: 100%;
+}
+
+
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: aquamarine;
+}
+.logo { 
+    margin: 30px 0px 30px 10px;
+    max-width: 100px;
+}
+
+
+.odd {
+    background-color: lightgray;
+}
+
+#s-lancamento h1{
+    padding-top: 100px;
+}
+
+
+
+.title-row { 
+    padding-bottom: 30px;
+}
+
+#s-destaque { 
+    padding-top: 30px;
+}
+/* Fim do CSS - Geral */
+
+/*Lançamentos*/
+.carousel-inner{
+    padding-bottom: 100px;
+    min-height: 400px;
+}
+
+#s-lancamento h4 {
+    font-weight: bold;
+}
+#s-lancamento .carousel-inner .row {
+    margin-bottom: 10px;
+}
+
+div#c-lancamentos div.carousel-inner {
+    padding-bottom: 30px;
+    min-height: 400px;
+}
+
+@media (min-width: 991px){
+    div#c-lancamentos div.carousel-inner {
+        padding-bottom: 100px;
+    }
+}
+div#c-lancamentos ol.carousel-indicators li.active {
+    background-color: red;
+}
+.nome-filme { 
+    max-width: 300px;
+}
+.card-destaque img {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px;
+}
+
+@media (max-width:767px){
+    button.btn.btn-danger.float-right {
+        width: 100%;
+    }   
+}
+
+
+/* Fim - Lançamentos*/
+
+.b-avaliacoes {
+    padding: 30px 0px;
+}
+#s-avaliacao .card-avaliacao div.col-12 {
+     margin-bottom: 20px;
+}
+
+section {
+    padding: 10px 0px;
+}
+
+.estrela-data {
+    margin-bottom: 10px;
+    
+}
+#s-avaliacao .card-avaliacao .card { 
+    min-height: 230px;
+}
+/*entrevistas*/
+#s-entrevistas iframe {
+    width: 100%;
+    padding: 20px;
+}
+.card {
+    border: none;
+    background: none;
+}
+.anoTipo {
+
+}
+hr {
+    border-top: 1px solid crimson;
+  }
+#rodape {
+    padding: 30px;
+    
+}
+footer i { 
+    font-size: 1.2rem
+
+}
